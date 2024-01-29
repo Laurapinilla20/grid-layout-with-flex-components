@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    margin-right: 17rem;
+    margin-left: 17rem;
+    margin-top: 2rem;
+  }
+
+h1{ 
+    margin-left: 2rem;
+}
+
+  h2 {
+    margin: 0rem;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  a {
+   
+    color: white;
+    background-color: #781BAA;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 8px;  
+  }
+ 
+  .emojis {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1rem; 
+  }
+
+  .emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #222;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+  } 
+
+  .icon {
+    font-size: 4rem;
+    align-self: center;
+    order: -1;
+    padding-bottom: 1rem;
+  }
